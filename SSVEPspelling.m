@@ -105,7 +105,7 @@
         Screen('DrawText', monitor, 'Hold "0" and Press "Enter" to "SPELLING"', 200, 700);
         Screen('Flip', monitor);
         trial = ssvep_checkInput('Insert 0 only!!!', 0:1000);
-        
+         
       elseif experimentMode == backgroundMode
         Screen('FillRect', monitor, BGColor)
         Screen('TextSize', monitor, 75);
